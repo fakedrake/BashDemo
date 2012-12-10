@@ -1,0 +1,37 @@
+* Points to cover
+  Here are some points to be covered.
+
+** What is a shell
+   Just an interpreter/interface to use the system. A tty is a device
+   where we throw characters to be displayed.
+
+   Most popular shells are Bash, Zsh, csh, but there is also the
+   python shell, busybox and wish.
+
+   Generally we execute files using this. Demonstrate PATH variable.
+
+** What is a file
+   Filesystem ext2 has inodes, these inodes have a bunch of info about
+   the file like where to find it, use stat to look at the info. Show
+   directories and regular files. An inode also knows a file's
+   permissions. Demonstrate executable permission. Demonstrate
+   execution using the interpreter and using #!
+
+
+** Bash
+   Not a very good tool for programming. Excelent tool for short
+   scripts.
+   
+   - Show completion
+   - Pipes (anonymous)
+   - Variables
+   - Loops
+   - Conditionals
+   - Functions
+   
+** Networking basics
+   Driver provides a network interface with some capabilities. Then
+   the higher level tools exploit them using system calls. Show how a
+   driver works in general.
+
+   Use iwlist to scan for networks.
